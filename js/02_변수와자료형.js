@@ -97,7 +97,7 @@ function constCheck(){
   // 해결 방법 : const 를 let으로 변경
   // const nationalCode; -> let nationalCode;
 
-  console.log("국가 코드 : ", nationalCode);
+  // console.log("국가 코드 : ", nationalCode);
 }
 
 
