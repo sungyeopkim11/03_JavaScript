@@ -67,3 +67,12 @@ function check7(){
     console.log(num);
   }
 }
+
+
+/* 3부터 30까지 3의 배수만 출력하기 */
+function check8(){
+
+  for(let num = 20; num >= 2; num -= 2){
+    console.log(num);
+  }
+}
