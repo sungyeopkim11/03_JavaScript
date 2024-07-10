@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+main{
+  width: 600px;
+  margin: 50px auto;
+}
+
+.widhei-area > input{
+  width: 100px;
+}
+
+.font-area{
+  margin: 50px auto;
+}
+
+#fontSize{
+  width: 50px;
+}
+
+.color-area{
+  margin: 50px auto;
+}
+
+.transverse-area{
+  margin: 50px auto;
+}
+
+.length-area{
+  margin: 50px auto;
+}
+
+
+
+#resultButton{
+  margin: 10px 200px;
+}
+
+#outputText{
+  width: 400px;
+}
+
+
+.result-input{
+  width: 10px;
+  height: 10px;
+  border: 1px;
+  margin: 0 200px;
+  display: flex;
+}

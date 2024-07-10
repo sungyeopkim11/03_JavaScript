@@ -1,0 +1,4 @@
+
+function main(){
+  rock.add
+}

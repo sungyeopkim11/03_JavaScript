@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI구현_김성엽</title>
+  <link rel="stylesheet" href="UI구현.css">
+</head>
+<body>
+  <h1>김성엽</h1>
+
+  <main>
+    <section class="result-area">
+        
+      <div class="widhei-area">
+            너비 : <input type="number" id="width" name="width"> px
+            높이 : <input type="number" id="height" name="height"> px
+        </div>
+        
+        <div class="font-area">
+            글자크기 : <input type="number" id="fontSize" name="fontSize"> px
+            굵기 : 보통 <input type="radio" id="normal" name="fontWeight" value="normal">
+            굵게 <input type="radio" id="bold" name="fontWeight" value="bold">
+        </div>
+            
+            
+            
+        
+        <div class="color-area">
+          글자색 : <input type="text" id="color" name="color">
+          배경색 : <input type="text" id="bgColor" name="bgColor">
+        </div>
+            
+            
+       
+        <div class="transverse-area">
+          가로정렬 : 왼쪽 <input type="radio" id="left" name="textAlign" value="start">
+          가운데 <input type="radio" id="center" name="textAlign" value="center">
+          오른쪽 <input type="radio" id="right" name="textAlign" value="end">
+        </div>
+            
+            
+            
+            
+        <div class="length-area">
+          세로정렬 : 위 <input type="radio" id="top" name="verticalAlign" value="start">
+          가운데 <input type="radio" id="middle" name="verticalAlign" value="center">
+          아래 <input type="radio" id="bottom" name="verticalAlign" value="end">
+        </div>
+            
+        <div>
+          출력 문자열 : <input type="text" id="outputText" name="outputText">
+        </div>
+            
+        <button id="resultButton">적용하기</button>
+    </section>
+
+    <div class="result-input"></div>
+  </main>
+  
+            
+            
+            
+
+  <script src="UI구현.js"></script>
+</body>
+</html>
